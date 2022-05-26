@@ -51,7 +51,7 @@
             this.empezar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.empezar.Size = new System.Drawing.Size(155, 38);
             this.empezar.TabIndex = 2;
-            this.empezar.Text = "BÁSICO ";
+            this.empezar.Text = "BÁSICO";
             this.empezar.UseVisualStyleBackColor = false;
             this.empezar.Click += new System.EventHandler(this.empezar_Click);
             // 

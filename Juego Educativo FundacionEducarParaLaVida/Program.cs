@@ -11,7 +11,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new oracion1());
+            Application.Run(new inicio());
         }
     }
 }

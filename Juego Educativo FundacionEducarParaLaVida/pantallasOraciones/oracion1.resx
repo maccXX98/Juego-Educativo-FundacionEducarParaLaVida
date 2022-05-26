@@ -11684,10 +11684,13 @@
         AABANDvt9H+2of2lZYmFCgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAukAAALlCAYAAAB5BnhwAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAA/7JJREFUeF7s/cmPHUee74nqH3gPt9YXvbioRT/grapRwFu8Rm9qURe9rAY6l/1Q
+        vAAADrwBlbxySQAA/7JJREFUeF7s/cmPHUee74nqH3gPt9YXvbioRT/grapRwFu8Rm9qURe9rAY6l/1Q
         iwdk4+Gi+168vn0TjcatW5VZOSuzsiqlnCfNEjWlxCHIICmKSkmUSJES55kxMIYTQXEeIih6n69H/Dx+
         x87Xzc3dzf34OfFbfKSgm7kNPzM3+7qdn5s9tWf1flKWl6/fTL5/bj751unZRvje2bnk9cXbNG/h1fOL
         yb/71o5a7Li4TNP2sngzeXe2V5vp2V3JgZnnU96dXRoKD2WKlTESP720SNunSf7xzLXkuQuvJC9f/F3K

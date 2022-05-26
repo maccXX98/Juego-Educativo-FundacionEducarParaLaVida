@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(oracion1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -35,10 +36,12 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -82,6 +85,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.Ivory;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(566, 183);
@@ -89,11 +93,13 @@
             this.textBox1.Size = new System.Drawing.Size(85, 25);
             this.textBox1.TabIndex = 7;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.Ivory;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.Color.Black;
             this.textBox2.Location = new System.Drawing.Point(263, 208);
@@ -101,11 +107,13 @@
             this.textBox2.Size = new System.Drawing.Size(221, 25);
             this.textBox2.TabIndex = 8;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.Ivory;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox3.ForeColor = System.Drawing.Color.Black;
             this.textBox3.Location = new System.Drawing.Point(551, 290);
@@ -113,30 +121,39 @@
             this.textBox3.Size = new System.Drawing.Size(40, 25);
             this.textBox3.TabIndex = 9;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.Ivory;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(214, 344);
+            this.textBox4.Location = new System.Drawing.Point(470, 317);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(154, 25);
+            this.textBox4.Size = new System.Drawing.Size(105, 25);
             this.textBox4.TabIndex = 10;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.Color.Ivory;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(472, 317);
+            this.textBox5.Location = new System.Drawing.Point(212, 341);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 25);
+            this.textBox5.Size = new System.Drawing.Size(156, 25);
             this.textBox5.TabIndex = 11;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged_1);
             // 
             // oracion1
             // 
@@ -161,8 +178,10 @@
             this.Name = "oracion1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juego Educativo Fundacion Educar Para La Vida";
+            this.Load += new System.EventHandler(this.oracion1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,7 +194,8 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
-        private TextBox textBox4;
+        private ErrorProvider errorProvider1;
         private TextBox textBox5;
+        private TextBox textBox4;
     }
 }

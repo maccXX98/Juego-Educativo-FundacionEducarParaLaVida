@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Juego_Educativo_FundacionEducarParaLaVida</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Juego_Educativo_FundacionEducarParaLaVida.Program</StartupObject>
+    <ApplicationIcon>FUNDACIONEDUCARPARALAVIDA-LOGO-e1638174134144.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="FUNDACIONEDUCARPARALAVIDA-LOGO-e1638174134144.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="pantallasImagenes\imagenes3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasImagenes\imagenes2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasInicio\seleccionarDificultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasOraciones\oracion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasOraciones\oracion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasOraciones\oracion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasImagenes\imagenes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasInicio\menuObjetivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasOraciones\oracion1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

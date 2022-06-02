@@ -135,6 +135,7 @@
             this.button3Salud.Size = new System.Drawing.Size(104, 109);
             this.button3Salud.TabIndex = 14;
             this.button3Salud.UseVisualStyleBackColor = false;
+            this.button3Salud.Click += new System.EventHandler(this.button3Salud_Click);
             // 
             // pictureBox3
             // 
@@ -163,6 +164,7 @@
             this.button4Educacion.Size = new System.Drawing.Size(109, 109);
             this.button4Educacion.TabIndex = 17;
             this.button4Educacion.UseVisualStyleBackColor = false;
+            this.button4Educacion.Click += new System.EventHandler(this.button4Educacion_Click);
             // 
             // button5Genero
             // 
@@ -180,6 +182,7 @@
             this.button5Genero.Size = new System.Drawing.Size(106, 109);
             this.button5Genero.TabIndex = 18;
             this.button5Genero.UseVisualStyleBackColor = false;
+            this.button5Genero.Click += new System.EventHandler(this.button5Genero_Click);
             // 
             // button6Agua
             // 
@@ -215,6 +218,7 @@
             this.button7Energia.Size = new System.Drawing.Size(106, 115);
             this.button7Energia.TabIndex = 20;
             this.button7Energia.UseVisualStyleBackColor = false;
+            this.button7Energia.Click += new System.EventHandler(this.button7Energia_Click);
             // 
             // button8Trabajo
             // 
@@ -232,6 +236,7 @@
             this.button8Trabajo.Size = new System.Drawing.Size(101, 115);
             this.button8Trabajo.TabIndex = 21;
             this.button8Trabajo.UseVisualStyleBackColor = false;
+            this.button8Trabajo.Click += new System.EventHandler(this.button8Trabajo_Click);
             // 
             // buttonIndustrial
             // 
@@ -267,6 +272,7 @@
             this.button10Desigualdad.Size = new System.Drawing.Size(99, 115);
             this.button10Desigualdad.TabIndex = 23;
             this.button10Desigualdad.UseVisualStyleBackColor = false;
+            this.button10Desigualdad.Click += new System.EventHandler(this.button10Desigualdad_Click);
             // 
             // button11Ciudades
             // 
@@ -284,6 +290,7 @@
             this.button11Ciudades.Size = new System.Drawing.Size(106, 115);
             this.button11Ciudades.TabIndex = 24;
             this.button11Ciudades.UseVisualStyleBackColor = false;
+            this.button11Ciudades.Click += new System.EventHandler(this.button11Ciudades_Click);
             // 
             // button12Produccion
             // 
@@ -301,6 +308,7 @@
             this.button12Produccion.Size = new System.Drawing.Size(107, 115);
             this.button12Produccion.TabIndex = 25;
             this.button12Produccion.UseVisualStyleBackColor = false;
+            this.button12Produccion.Click += new System.EventHandler(this.button12Produccion_Click);
             // 
             // button13Clima
             // 
@@ -318,6 +326,7 @@
             this.button13Clima.Size = new System.Drawing.Size(106, 108);
             this.button13Clima.TabIndex = 26;
             this.button13Clima.UseVisualStyleBackColor = false;
+            this.button13Clima.Click += new System.EventHandler(this.button13Clima_Click);
             // 
             // button14Submarina
             // 
@@ -335,6 +344,7 @@
             this.button14Submarina.Size = new System.Drawing.Size(101, 108);
             this.button14Submarina.TabIndex = 27;
             this.button14Submarina.UseVisualStyleBackColor = false;
+            this.button14Submarina.Click += new System.EventHandler(this.button14Submarina_Click);
             // 
             // button15Vida
             // 
@@ -352,6 +362,7 @@
             this.button15Vida.Size = new System.Drawing.Size(104, 108);
             this.button15Vida.TabIndex = 28;
             this.button15Vida.UseVisualStyleBackColor = false;
+            this.button15Vida.Click += new System.EventHandler(this.button15Vida_Click);
             // 
             // button16Paz
             // 
@@ -369,6 +380,7 @@
             this.button16Paz.Size = new System.Drawing.Size(99, 108);
             this.button16Paz.TabIndex = 29;
             this.button16Paz.UseVisualStyleBackColor = false;
+            this.button16Paz.Click += new System.EventHandler(this.button16Paz_Click);
             // 
             // button17Alianzas
             // 
@@ -386,6 +398,7 @@
             this.button17Alianzas.Size = new System.Drawing.Size(106, 108);
             this.button17Alianzas.TabIndex = 30;
             this.button17Alianzas.UseVisualStyleBackColor = false;
+            this.button17Alianzas.Click += new System.EventHandler(this.button17Alianzas_Click);
             // 
             // button18Final
             // 

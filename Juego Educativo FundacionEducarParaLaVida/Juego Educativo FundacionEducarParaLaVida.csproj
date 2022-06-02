@@ -26,6 +26,27 @@
     <Compile Update="pantallasInicio\seleccionarDificultad.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="pantallasLetras\letras17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasLetras\letras11.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="pantallasLetras\letras10.cs">
       <SubType>Form</SubType>
     </Compile>

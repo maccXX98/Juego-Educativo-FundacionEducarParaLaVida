@@ -17,7 +17,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         }
 
-        internal static void ActiveForm()
+        internal static new void ActiveForm()
         {
             throw new NotImplementedException();
         }
@@ -53,12 +53,6 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         private void button2Hambre_Click(object sender, EventArgs e)
         {
             Form form = new letras2();
-            form.Show();
-        }
-
-        private void button18Final_Click(object sender, EventArgs e)
-        {
-            Form form = new seleccionarDificultad();
             form.Show();
         }
 
@@ -139,5 +133,12 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             Form form = new letras17();
             form.Show();
         }
+
+        private void button18Final_Click(object sender, EventArgs e)
+        {
+            Form form = new seleccionarDificultad();
+            form.Show();
+        }
+
     }
 }

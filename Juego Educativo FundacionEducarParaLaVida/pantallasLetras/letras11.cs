@@ -185,7 +185,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form = new oracion2();
+            Form form = new oracion11();
             form.Show();
         }
 

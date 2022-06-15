@@ -74,7 +74,7 @@
     <Compile Update="pantallasLetras\letras2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="pantallasOraciones\oracion4.cs">
+    <Compile Update="pantallasOraciones\oracion11.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="pantallasOraciones\oracion3.cs">

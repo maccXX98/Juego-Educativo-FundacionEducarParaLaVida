@@ -69,7 +69,7 @@
             this.button1.BackColor = System.Drawing.Color.Lime;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(324, 386);
+            this.button1.Location = new System.Drawing.Point(313, 358);
             this.button1.Name = "button1";
             this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button1.Size = new System.Drawing.Size(187, 63);
@@ -122,9 +122,9 @@
             // 
             this.textBox5.BackColor = System.Drawing.Color.Ivory;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(579, 288);
+            this.textBox5.Location = new System.Drawing.Point(578, 289);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(79, 23);
+            this.textBox5.Size = new System.Drawing.Size(80, 23);
             this.textBox5.TabIndex = 12;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

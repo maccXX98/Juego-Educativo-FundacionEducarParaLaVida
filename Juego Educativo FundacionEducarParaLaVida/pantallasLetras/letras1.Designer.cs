@@ -53,12 +53,12 @@
             this.empezar.BackColor = System.Drawing.Color.Lime;
             this.empezar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.empezar.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.empezar.Location = new System.Drawing.Point(159, 254);
+            this.empezar.Location = new System.Drawing.Point(235, 244);
             this.empezar.Name = "empezar";
             this.empezar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.empezar.Size = new System.Drawing.Size(187, 86);
+            this.empezar.Size = new System.Drawing.Size(188, 50);
             this.empezar.TabIndex = 2;
-            this.empezar.Text = "SIGUIENTE NIVEL";
+            this.empezar.Text = "SIGUIENTE";
             this.empezar.UseVisualStyleBackColor = false;
             this.empezar.Click += new System.EventHandler(this.empezar_Click);
             // 
@@ -208,10 +208,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(178, 346);
+            this.pictureBox2.Location = new System.Drawing.Point(23, 232);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(155, 65);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.Size = new System.Drawing.Size(438, 202);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
@@ -222,6 +222,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(804, 461);
+            this.Controls.Add(this.empezar);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -233,7 +234,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.empezar);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

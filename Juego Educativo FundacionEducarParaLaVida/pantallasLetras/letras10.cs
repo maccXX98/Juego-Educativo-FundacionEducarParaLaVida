@@ -60,7 +60,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
         private void controlBoton5()
         {
-            if (textBox5.Text == "lud")
+            if (textBox5.Text == "u")
             {
                 errorProvider1.SetError(textBox5, "");
             }
@@ -138,7 +138,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            textBox5.MaxLength = 3;
+            textBox5.MaxLength = 1;
             controlBoton5();
         }
 

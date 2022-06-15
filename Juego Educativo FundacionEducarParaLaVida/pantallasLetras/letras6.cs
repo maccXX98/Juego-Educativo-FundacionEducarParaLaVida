@@ -99,7 +99,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
         private void controlBoton8()
         {
-            if (textBox8.Text == "cui")
+            if (textBox8.Text == "i")
             {
                 button1.Enabled = true;
                 errorProvider1.SetError(textBox8, "");
@@ -182,7 +182,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void textBox8_TextChanged(object sender, EventArgs e)
         {
-            textBox8.MaxLength = 3;
+            textBox8.MaxLength = 1;
             controlBoton8();
         }
 

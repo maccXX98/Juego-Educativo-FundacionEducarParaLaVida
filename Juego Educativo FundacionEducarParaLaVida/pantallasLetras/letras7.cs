@@ -189,6 +189,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
             Form form = new oracion2();
             form.Show();
+            this.Hide();
         }
     }
 }

@@ -31,6 +31,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
             Form form = new oracion2();
             form.Show();
+            this.Hide();
         }
 
         private void letras2_Load(object sender, EventArgs e)

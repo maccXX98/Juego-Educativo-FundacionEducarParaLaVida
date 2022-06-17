@@ -16,6 +16,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
             Form form = new menuObjetivos();
             form.Show();
+            this.Hide();
         }
 
         private void inicio_Load(object sender, EventArgs e)

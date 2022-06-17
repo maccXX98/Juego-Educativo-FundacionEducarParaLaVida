@@ -154,6 +154,9 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             button1.Enabled = false;
         }
 
-       
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

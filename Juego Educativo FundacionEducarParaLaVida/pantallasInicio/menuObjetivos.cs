@@ -1,3 +1,5 @@
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
+
 namespace Juego_Educativo_FundacionEducarParaLaVida
 {
     public partial class menuObjetivos : Form
@@ -158,5 +160,9 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             this.Hide();
         }
 
+        private void cerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

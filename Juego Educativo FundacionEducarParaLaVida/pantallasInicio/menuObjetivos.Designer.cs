@@ -34,7 +34,6 @@
             this.button2Hambre = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3Salud = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button4Educacion = new System.Windows.Forms.Button();
             this.button5Genero = new System.Windows.Forms.Button();
             this.button6Agua = new System.Windows.Forms.Button();
@@ -50,8 +49,8 @@
             this.button16Paz = new System.Windows.Forms.Button();
             this.button17Alianzas = new System.Windows.Forms.Button();
             this.button18Final = new System.Windows.Forms.Button();
+            this.cerrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -136,17 +135,6 @@
             this.button3Salud.TabIndex = 14;
             this.button3Salud.UseVisualStyleBackColor = false;
             this.button3Salud.Click += new System.EventHandler(this.button3Salud_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(788, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 98);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 16;
-            this.pictureBox3.TabStop = false;
             // 
             // button4Educacion
             // 
@@ -420,7 +408,22 @@
             this.button18Final.TabIndex = 31;
             this.button18Final.Text = "JUEGO\r\nFINAL";
             this.button18Final.UseVisualStyleBackColor = false;
+            this.button18Final.Visible = false;
             this.button18Final.Click += new System.EventHandler(this.button18Final_Click);
+            // 
+            // cerrar
+            // 
+            this.cerrar.BackColor = System.Drawing.Color.Red;
+            this.cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cerrar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cerrar.ForeColor = System.Drawing.Color.White;
+            this.cerrar.Location = new System.Drawing.Point(859, 12);
+            this.cerrar.Name = "cerrar";
+            this.cerrar.Size = new System.Drawing.Size(113, 70);
+            this.cerrar.TabIndex = 32;
+            this.cerrar.Text = "CERRAR JUEGO";
+            this.cerrar.UseVisualStyleBackColor = false;
+            this.cerrar.Click += new System.EventHandler(this.cerrar_Click);
             // 
             // menuObjetivos
             // 
@@ -430,6 +433,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.cerrar);
             this.Controls.Add(this.button18Final);
             this.Controls.Add(this.button17Alianzas);
             this.Controls.Add(this.button16Paz);
@@ -445,7 +449,6 @@
             this.Controls.Add(this.button6Agua);
             this.Controls.Add(this.button5Genero);
             this.Controls.Add(this.button4Educacion);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button3Salud);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button2Hambre);
@@ -459,7 +462,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juego Educativo Fundacion Educar Para La Vida";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -471,7 +473,6 @@
         private Button button2Hambre;
         private Button button2;
         private Button button3Salud;
-        private PictureBox pictureBox3;
         private Button button4Educacion;
         private Button button5Genero;
         private Button button6Agua;
@@ -487,5 +488,6 @@
         private Button button16Paz;
         private Button button17Alianzas;
         private Button button18Final;
+        private Button cerrar;
     }
 }

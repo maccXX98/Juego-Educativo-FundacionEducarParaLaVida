@@ -42,10 +42,88 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         }
 
+        private void controlBoton1()
+        {
+            if (textBox1.Text == "saludables")
+            {
+                errorProvider1.SetError(textBox1, "");
+            }
+            else
+            {
+                errorProvider1.SetError(textBox1, "Palabra equivocada");
+                textBox1.Focus();
+            }
+        }
+        private void controlBoton2()
+        {
+            if (textBox2.Text == "agricola" || textBox2.Text == "agrícola")
+            {
+                errorProvider1.SetError(textBox2, "");
+            }
+            else
+            {
+                errorProvider1.SetError(textBox2, "Palabra equivocada");
+                textBox2.Focus();
+            }
+
+        }
+        private void controlBoton3()
+        {
+            if (textBox3.Text == "necesidades")
+            {
+                errorProvider1.SetError(textBox3, "");
+            }
+            else
+            {
+                errorProvider1.SetError(textBox3, "Palabra equivocada");
+                textBox3.Focus();
+            }
+
+        }
+        private void controlBoton4()
+        {
+            if (textBox4.Text == "mejorar")
+            {
+                button1.Enabled = true;
+                errorProvider1.SetError(textBox4, "");
+            }
+            else
+            {
+                errorProvider1.SetError(textBox4, "Palabra equivocada");
+                textBox4.Focus();
+            }
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Form form = new sopa3();
             form.Show();
+            this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.MaxLength = 10;
+            controlBoton1();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.MaxLength = 8;
+            controlBoton2();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            textBox3.MaxLength = 11;
+            controlBoton3();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            textBox4.MaxLength = 7;
+            controlBoton4();
         }
     }
 }

@@ -91,8 +91,9 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Form form = new sopa1();
-            //form.Show();
+            Form form = new sopa1();
+            form.Show();
+            this.Hide();
         }
 
         private void oracion4_Load(object sender, EventArgs e)

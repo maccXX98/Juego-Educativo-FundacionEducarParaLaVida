@@ -415,7 +415,7 @@
             this.label1.BackColor = System.Drawing.Color.Ivory;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Cyan;
+            this.label1.ForeColor = System.Drawing.SystemColors.Info;
             this.label1.Location = new System.Drawing.Point(162, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(504, 42);

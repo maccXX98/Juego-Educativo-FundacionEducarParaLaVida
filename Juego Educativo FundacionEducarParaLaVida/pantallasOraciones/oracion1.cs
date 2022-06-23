@@ -46,6 +46,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
             Form form = new sopa1();
             form.Show();
+            this.Hide();
         }
 
         private void controlBoton1()
@@ -89,20 +90,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             }
 
         }
-        private void controlBoton4()
-        {
-            if (textBox4.Text == "bienestar")
-            {
-                errorProvider1.SetError(textBox4, "");
-            }
-            else
-            {
-                errorProvider1.SetError(textBox4, "Palabra equivocada");
-                button1.Enabled = false;
-                textBox4.Focus();
-            }
 
-        }
         private void controlBoton5()
         {
             if (textBox5.Text == "educacion" || textBox5.Text == "educación")
@@ -137,12 +125,6 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             controlBoton3();
         }
 
-        private void textBox4_TextChanged_1(object sender, EventArgs e)
-        {
-            textBox4.MaxLength = 9;
-            controlBoton4();
-        }
-
         private void textBox5_TextChanged_1(object sender, EventArgs e)
         {
             textBox5.MaxLength = 9;
@@ -155,6 +137,11 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }

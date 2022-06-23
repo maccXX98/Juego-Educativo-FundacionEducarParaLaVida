@@ -82,8 +82,8 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button6_Click(object sender, EventArgs e)
         {
-            button6.FlatAppearance.BorderSize = 3;
-            button6.FlatAppearance.BorderColor = Color.Green;
+            //button6.FlatAppearance.BorderSize = 3;
+            //button6.FlatAppearance.BorderColor = Color.Green;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -149,8 +149,8 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button17_Click(object sender, EventArgs e)
         {
-            button17.FlatAppearance.BorderSize = 3;
-            button17.FlatAppearance.BorderColor = Color.Green;
+            //button17.FlatAppearance.BorderSize = 3;
+            //button17.FlatAppearance.BorderColor = Color.Green;
         }
         
         //frutas
@@ -181,8 +181,8 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button22_Click(object sender, EventArgs e)
         {
-            button22.FlatAppearance.BorderSize = 3;
-            button22.FlatAppearance.BorderColor = Color.Green;
+           //button22.FlatAppearance.BorderSize = 3;
+            //button22.FlatAppearance.BorderColor = Color.Green;
         }
 
         private void button23_Click(object sender, EventArgs e)
@@ -194,6 +194,66 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            //button25.FlatAppearance.BorderSize = 3;
+            //button25.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            //button24.FlatAppearance.BorderSize = 3;
+            //button24.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button22_Click_1(object sender, EventArgs e)
+        {
+            //button22.FlatAppearance.BorderSize = 3;
+            //button22.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button17_Click_1(object sender, EventArgs e)
+        {
+            //button17.FlatAppearance.BorderSize = 3;
+            //button17.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            //button6.FlatAppearance.BorderSize = 3;
+            //button6.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button25_Click_1(object sender, EventArgs e)
+        {
+            button25.FlatAppearance.BorderSize = 3;
+            button25.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button24_Click_1(object sender, EventArgs e)
+        {
+            button24.FlatAppearance.BorderSize = 3;
+            button24.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button22_Click_2(object sender, EventArgs e)
+        {
+            button22.FlatAppearance.BorderSize = 3;
+            button22.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button17_Click_2(object sender, EventArgs e)
+        {
+            button17.FlatAppearance.BorderSize = 3;
+            button17.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void button6_Click_2(object sender, EventArgs e)
+        {
+            button6.FlatAppearance.BorderSize = 3;
+            button6.FlatAppearance.BorderColor = Color.Green;
         }
     }
 }

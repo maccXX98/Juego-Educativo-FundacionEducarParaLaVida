@@ -130,5 +130,10 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
 
         }
+
+        private void oracion8_Load(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+        }
     }
 }

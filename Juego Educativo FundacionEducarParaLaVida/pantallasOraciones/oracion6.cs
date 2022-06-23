@@ -125,5 +125,10 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             textBox4.MaxLength = 5;
             controlBoton4();
         }
+
+        private void oracion6_Load(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+        }
     }
 }

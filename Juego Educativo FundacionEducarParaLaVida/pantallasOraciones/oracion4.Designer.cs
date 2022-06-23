@@ -206,6 +206,7 @@
             this.Name = "oracion4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juego Educativo Fundacion Educar Para La Vida";
+            this.Load += new System.EventHandler(this.oracion4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

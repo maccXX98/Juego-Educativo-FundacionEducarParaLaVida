@@ -91,7 +91,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form = new sopa1();
+            Form form = new sopa11();
             form.Show();
             this.Hide();
         }

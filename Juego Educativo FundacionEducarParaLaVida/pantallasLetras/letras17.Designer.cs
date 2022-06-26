@@ -151,9 +151,9 @@
             this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(459, 210);
+            this.textBox4.Location = new System.Drawing.Point(472, 210);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(58, 25);
+            this.textBox4.Size = new System.Drawing.Size(25, 25);
             this.textBox4.TabIndex = 24;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);

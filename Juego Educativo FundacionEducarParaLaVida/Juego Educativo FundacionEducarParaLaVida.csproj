@@ -122,6 +122,45 @@
     <Compile Update="pantallasOraciones\oracion2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="pantallasSopas\sopa10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa14 .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pantallasSopas\sopa4.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="pantallasSopas\sopa2.cs">
       <SubType>Form</SubType>
     </Compile>

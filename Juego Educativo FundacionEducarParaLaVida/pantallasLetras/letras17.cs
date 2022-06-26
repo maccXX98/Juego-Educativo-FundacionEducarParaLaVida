@@ -47,7 +47,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
         private void controlBoton4()
         {
-            if (textBox4.Text == "tas")
+            if (textBox4.Text == "a")
             {
                 errorProvider1.SetError(textBox4, "");
             }
@@ -158,7 +158,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            textBox4.MaxLength = 3;
+            textBox4.MaxLength = 1;
             controlBoton4();
         }
 

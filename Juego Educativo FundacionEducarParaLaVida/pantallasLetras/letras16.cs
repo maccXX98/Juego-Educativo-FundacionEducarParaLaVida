@@ -34,7 +34,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
         private void controlBoton3()
         {
-            if (textBox3.Text == "gal")
+            if (textBox3.Text == "a")
             {
                 errorProvider1.SetError(textBox3, "");
             }
@@ -139,7 +139,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            textBox3.MaxLength = 3;
+            textBox3.MaxLength = 1;
             controlBoton3();
         }
 

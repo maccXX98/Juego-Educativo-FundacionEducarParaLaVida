@@ -107,9 +107,9 @@
             this.textBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox7.ForeColor = System.Drawing.Color.Black;
-            this.textBox7.Location = new System.Drawing.Point(487, 297);
+            this.textBox7.Location = new System.Drawing.Point(516, 297);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(54, 25);
+            this.textBox7.Size = new System.Drawing.Size(25, 25);
             this.textBox7.TabIndex = 27;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);

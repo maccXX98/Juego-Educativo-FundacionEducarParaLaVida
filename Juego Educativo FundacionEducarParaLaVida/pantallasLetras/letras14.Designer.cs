@@ -94,7 +94,7 @@
             this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox8.ForeColor = System.Drawing.Color.Black;
-            this.textBox8.Location = new System.Drawing.Point(499, 328);
+            this.textBox8.Location = new System.Drawing.Point(499, 329);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(35, 25);
             this.textBox8.TabIndex = 28;
@@ -110,7 +110,7 @@
             this.textBox7.ForeColor = System.Drawing.Color.Black;
             this.textBox7.Location = new System.Drawing.Point(467, 294);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(63, 25);
+            this.textBox7.Size = new System.Drawing.Size(65, 25);
             this.textBox7.TabIndex = 27;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
@@ -122,9 +122,9 @@
             this.textBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox6.ForeColor = System.Drawing.Color.Black;
-            this.textBox6.Location = new System.Drawing.Point(393, 260);
+            this.textBox6.Location = new System.Drawing.Point(448, 260);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(76, 25);
+            this.textBox6.Size = new System.Drawing.Size(22, 25);
             this.textBox6.TabIndex = 26;
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
@@ -138,7 +138,7 @@
             this.textBox5.ForeColor = System.Drawing.Color.Black;
             this.textBox5.Location = new System.Drawing.Point(459, 225);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(45, 25);
+            this.textBox5.Size = new System.Drawing.Size(48, 25);
             this.textBox5.TabIndex = 25;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
@@ -178,7 +178,7 @@
             this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(422, 123);
+            this.textBox2.Location = new System.Drawing.Point(423, 122);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(67, 25);
             this.textBox2.TabIndex = 22;
@@ -192,7 +192,7 @@
             this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(450, 84);
+            this.textBox1.Location = new System.Drawing.Point(451, 84);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(64, 29);
             this.textBox1.TabIndex = 21;
@@ -210,7 +210,7 @@
             this.textBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox9.ForeColor = System.Drawing.Color.Black;
-            this.textBox9.Location = new System.Drawing.Point(588, 123);
+            this.textBox9.Location = new System.Drawing.Point(589, 123);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(57, 25);
             this.textBox9.TabIndex = 29;

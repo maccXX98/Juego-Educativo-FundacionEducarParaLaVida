@@ -86,7 +86,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         }
         private void controlBoton7()
         {
-            if (textBox7.Text == "ho")
+            if (textBox7.Text == "o")
             {
                 errorProvider1.SetError(textBox7, "");
             }
@@ -150,7 +150,7 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
 
         private void textBox7_TextChanged(object sender, EventArgs e)
         {
-            textBox7.MaxLength = 2;
+            textBox7.MaxLength = 1;
             controlBoton7();
         }
 

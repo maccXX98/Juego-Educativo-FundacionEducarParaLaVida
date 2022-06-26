@@ -113,7 +113,7 @@
             this.textBox7.ForeColor = System.Drawing.Color.Black;
             this.textBox7.Location = new System.Drawing.Point(421, 294);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(79, 25);
+            this.textBox7.Size = new System.Drawing.Size(81, 25);
             this.textBox7.TabIndex = 27;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
@@ -139,9 +139,9 @@
             this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(442, 225);
+            this.textBox5.Location = new System.Drawing.Point(441, 225);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(51, 25);
+            this.textBox5.Size = new System.Drawing.Size(56, 25);
             this.textBox5.TabIndex = 25;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
@@ -195,9 +195,9 @@
             this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(392, 84);
+            this.textBox1.Location = new System.Drawing.Point(391, 84);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(84, 29);
+            this.textBox1.Size = new System.Drawing.Size(87, 29);
             this.textBox1.TabIndex = 21;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);

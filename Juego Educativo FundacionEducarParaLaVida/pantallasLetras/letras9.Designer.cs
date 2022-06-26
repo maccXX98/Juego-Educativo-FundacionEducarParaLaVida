@@ -97,7 +97,7 @@
             this.textBox8.ForeColor = System.Drawing.Color.Black;
             this.textBox8.Location = new System.Drawing.Point(422, 388);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(66, 25);
+            this.textBox8.Size = new System.Drawing.Size(67, 25);
             this.textBox8.TabIndex = 28;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);

@@ -145,5 +145,12 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
         {
 
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            Form form = new menuObjetivos();
+            form.Show();
+            this.Hide();
+        }
     }
 }

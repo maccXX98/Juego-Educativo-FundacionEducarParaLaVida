@@ -243,5 +243,12 @@ namespace Juego_Educativo_FundacionEducarParaLaVida
             button1.FlatAppearance.BorderSize = 3;
             button1.FlatAppearance.BorderColor = Color.Green;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            Form form = new menuObjetivos();
+            form.Show();
+            this.Hide();
+        }
     }
 }

@@ -65,6 +65,7 @@
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -587,6 +588,26 @@
             this.button32.UseVisualStyleBackColor = false;
             this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnMenu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu.BackgroundImage")));
+            this.btnMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.Ivory;
+            this.btnMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
+            this.btnMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Green;
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMenu.ForeColor = System.Drawing.SystemColors.Info;
+            this.btnMenu.Location = new System.Drawing.Point(1, 1);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(94, 77);
+            this.btnMenu.TabIndex = 49;
+            this.btnMenu.Text = "MENÚ";
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
             // sopa15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -594,6 +615,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(804, 461);
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.button30);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.button32);
@@ -682,5 +704,6 @@
         private Button button30;
         private Button button31;
         private Button button32;
+        private Button btnMenu;
     }
 }

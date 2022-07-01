@@ -194,9 +194,9 @@
             this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox8.ForeColor = System.Drawing.Color.Black;
-            this.textBox8.Location = new System.Drawing.Point(670, 336);
+            this.textBox8.Location = new System.Drawing.Point(668, 336);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(62, 25);
+            this.textBox8.Size = new System.Drawing.Size(65, 25);
             this.textBox8.TabIndex = 12;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
@@ -288,5 +288,6 @@
         private ErrorProvider errorProvider1;
         private PictureBox pictureBox2;
         private Button btnMenu;
+        private PictureBox pictureBox3;
     }
 }

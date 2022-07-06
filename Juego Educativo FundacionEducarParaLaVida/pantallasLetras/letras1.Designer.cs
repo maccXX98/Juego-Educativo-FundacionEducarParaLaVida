@@ -152,7 +152,7 @@
             this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(595, 232);
+            this.textBox5.Location = new System.Drawing.Point(594, 232);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(49, 25);
             this.textBox5.TabIndex = 9;

@@ -165,9 +165,9 @@
             this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(459, 166);
+            this.textBox3.Location = new System.Drawing.Point(458, 166);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(59, 25);
+            this.textBox3.Size = new System.Drawing.Size(84, 25);
             this.textBox3.TabIndex = 23;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
